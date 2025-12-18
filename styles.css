@@ -1,0 +1,82 @@
+/* ---------- App Background ---------- */
+.stApp {
+    background: linear-gradient(
+        145deg,
+        #2e1065 0%,   /* deep purple */
+        #c4b5fd 50%,  /* soft lavender */
+        #2e1065 100%  /* deep purple */
+    );
+    min-height: 100vh;
+    font-family: "Segoe UI", sans-serif;
+}
+
+/* ---------- Main Card ---------- */
+.card {
+    background: linear-gradient(
+        135deg,
+        #ede9fe 0%,   /* lavender edge */
+        #ffffff 50%,  /* light center */
+        #ede9fe 100%  /* lavender edge */
+    );
+    padding: 25px;
+    border-radius: 18px;
+    margin-bottom: 25px;
+    box-shadow: 0 12px 28px rgba(124, 58, 237, 0.25);
+    border: 2px solid #a78bfa;
+    color: #312e81;
+}
+
+/* ---------- Headings ---------- */
+h1 {
+    color: #4c1d95;
+    font-weight: 700;
+}
+
+h2, h3 {
+    color: #6d28d9;
+    font-weight: 600;
+}
+
+/* ---------- Metric Cards ---------- */
+div[data-testid="metric-container"] {
+    background: linear-gradient(
+        135deg,
+        #c7d2fe 0%,
+        #ede9fe 50%,
+        #c7d2fe 100%
+    );
+    border-radius: 16px;
+    padding: 18px;
+    box-shadow: 0 8px 18px rgba(109, 40, 217, 0.2);
+    color: #312e81;
+}
+
+/* ---------- Prediction Box ---------- */
+.prediction-box {
+    background: linear-gradient(
+        135deg,
+        #ddd6fe,
+        #c4b5fd
+    );
+    padding: 22px;
+    border-radius: 16px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: #4c1d95;
+    margin-top: 18px;
+    box-shadow: 0 12px 26px rgba(124, 58, 237, 0.35);
+    border: 2px solid #8b5cf6;
+}
+
+/* ---------- Sliders ---------- */
+.stSlider > div {
+    color: #4c1d95;
+}
+
+/* ---------- DataFrame ---------- */
+.stDataFrame {
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid #a78bfa;
+}
